@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Competible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/mystyle.css">
+        
+    </head>
+    <body>
+        <h1>การแสดง form แบบต่าง ๆ</h1>
+        <form>
+            <fieldset>
+                <legend>ข้อมูลนักศึกษา</legend>
+                    <label for="id">รหัสนักศึกษา</label>
+                    <input type="text" name="id" id="id" value="" placeholder="รหัสนักศึกษา" /> <br>
+                    <label for="gender">เพศ</label>
+                    <input type="radio" name="gender" id="gender" value="" checked/> ชาย
+                    <input type="radio" name="gender" id="gender" value="" /> หญิง <br>
+                    <label for="fname">ชื่อ</label>
+                    <input type="text" name="fname" id="fname" value="" placeholder="ชื่อ"/> <br>
+                    <label for="lname">นามสกุล</label>
+                    <input type="text" name="lname" id="lname" value="" placeholder="นามสกุล"/> <br>
+                    <label for="email">อีเมล์</label>
+                    <input type="email" name="email" id="email" value="" placeholder="email"/> <br>
+                    <label for="dob">วันเดือนปีเกิด</label>
+                    <input type="date" name="dob" id="dob" value=""/> <br>
+                    <label>สิ่งที่สนใจ</label>
+                    <input type="checkbox" name="cb" value="" /> ดูหนัง ฟังเพลง
+                    <input type="checkbox" name="cb" value="" checked/> เล่นอินเทอร์เน็ต
+                    <input type="checkbox" name="cb" value="" checked/> เล่นกีฬา
+                    <input type="checkbox" name="cb" value="" /> เลี้ยงสัตว์ <br>
+                    <input type="submit" name="submit" id="submit" value="ส่งข้อมูล" style="background-color: blue;color: white;"/>
+                    <input type="reset" name="reset" id="reset" value="ยกเลิก"/> 
+            </fieldset>
+            
+        </form>
+    </body>
+</html>
